@@ -32,7 +32,7 @@ const Navigation = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="font-bold text-xl gradient-text">
-            JD
+            SP
           </div>
 
           {/* Navigation Links */}

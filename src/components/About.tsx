@@ -3,8 +3,8 @@ import { Badge } from "@/components/ui/badge";
 
 const About = () => {
   const skills = [
-    "React", "TypeScript", "Next.js", "Node.js", "Python", 
-    "PostgreSQL", "MongoDB", "AWS", "Docker", "Figma"
+    "Python", "C", "Exploratory Data Analysis", "Data Visualization", "GitHub", "Git Bash",
+    "Firebase Studio", "Visual Studio", "Jupyter Notebook", "NumPy", "Pandas", "Matplotlib", "Seaborn"
   ];
 
   return (
@@ -16,21 +16,22 @@ const About = () => {
               About <span className="gradient-text">Me</span>
             </h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-              Passionate developer with 5+ years of experience creating innovative solutions
+              Enthusiastic Computer Science student passionate about data science and AI
             </p>
           </div>
 
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
               <p className="text-lg leading-relaxed text-muted-foreground">
-                I'm a passionate full-stack developer who loves turning complex problems into 
-                simple, beautiful solutions. With expertise in modern web technologies, I create 
-                applications that are not just functional, but also provide exceptional user experiences.
+                I'm a 2nd year Computer Science (Data Science) student at AMC Engineering College, Bengaluru. 
+                I'm passionate about using code and data to solve real-world problems and currently learning 
+                AI and analytics tools to build impactful projects.
               </p>
               
               <p className="text-lg leading-relaxed text-muted-foreground">
-                When I'm not coding, you'll find me exploring new technologies, contributing to 
-                open-source projects, or sharing knowledge with the developer community.
+                My journey in data science has led me to work on various projects involving data analysis, 
+                visualization, and predictive modeling. I enjoy exploring datasets to uncover insights and 
+                create solutions that can make a real difference.
               </p>
 
               <div className="space-y-4">
@@ -52,20 +53,20 @@ const About = () => {
             <Card className="glass p-8 transition-smooth hover:scale-105">
               <div className="space-y-6">
                 <div className="flex items-center justify-between">
-                  <span className="text-sm font-medium text-muted-foreground">Experience</span>
-                  <span className="text-2xl font-bold gradient-text">5+ Years</span>
+                  <span className="text-sm font-medium text-muted-foreground">Academic Year</span>
+                  <span className="text-2xl font-bold gradient-text">2nd Year</span>
                 </div>
                 <div className="flex items-center justify-between">
                   <span className="text-sm font-medium text-muted-foreground">Projects Completed</span>
-                  <span className="text-2xl font-bold gradient-text">50+</span>
+                  <span className="text-2xl font-bold gradient-text">4+</span>
                 </div>
                 <div className="flex items-center justify-between">
-                  <span className="text-sm font-medium text-muted-foreground">Happy Clients</span>
-                  <span className="text-2xl font-bold gradient-text">30+</span>
+                  <span className="text-sm font-medium text-muted-foreground">Programming Languages</span>
+                  <span className="text-2xl font-bold gradient-text">3+</span>
                 </div>
                 <div className="flex items-center justify-between">
-                  <span className="text-sm font-medium text-muted-foreground">Coffee Consumed</span>
-                  <span className="text-2xl font-bold gradient-text">∞</span>
+                  <span className="text-sm font-medium text-muted-foreground">Data Analysis Tools</span>
+                  <span className="text-2xl font-bold gradient-text">5+</span>
                 </div>
               </div>
             </Card>

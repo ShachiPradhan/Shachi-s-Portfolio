@@ -19,7 +19,7 @@ const Index = () => {
       <footer className="py-8 border-t border-border">
         <div className="container mx-auto px-4 text-center">
           <p className="text-muted-foreground">
-            © 2024 John Doe. All rights reserved.
+            © 2024 Shachi Pradhan. All rights reserved.
           </p>
         </div>
       </footer>

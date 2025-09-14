@@ -6,36 +6,36 @@ import { ExternalLink, Github } from "lucide-react";
 const Projects = () => {
   const projects = [
     {
-      title: "E-Commerce Platform",
-      description: "A full-stack e-commerce solution with payment integration, inventory management, and admin dashboard.",
+      title: "Car Price Prediction",
+      description: "Used Python libraries numpy, pandas, matplotlib, seaborn to process and visualize factors impacting car pricing. This model aids customers in selecting the best model based on their preference and enables predictive modeling for future price estimation.",
       image: "/placeholder.svg",
-      technologies: ["React", "Node.js", "PostgreSQL", "Stripe"],
+      technologies: ["Python", "NumPy", "Pandas", "Matplotlib", "Seaborn"],
       liveUrl: "#",
       githubUrl: "#"
     },
     {
-      title: "Task Management App",
-      description: "Collaborative project management tool with real-time updates, team collaboration, and progress tracking.",
+      title: "YouTube Trending Videos Analysis",
+      description: "Comprehensive analysis using Python libraries including WordCloud, plotly, matplotlib, seaborn, numpy, pandas. Explores title length, common keywords, top channels, dominant categories like entertainment and optimal publishing times for maximizing trend potential.",
       image: "/placeholder.svg",
-      technologies: ["Next.js", "TypeScript", "MongoDB", "WebSocket"],
+      technologies: ["Python", "WordCloud", "Plotly", "Matplotlib", "Seaborn"],
       liveUrl: "#",
       githubUrl: "#"
     },
     {
-      title: "Portfolio Website",
-      description: "A responsive portfolio website showcasing creative work with smooth animations and modern design.",
+      title: "Numri-Craft",
+      description: "Created an app on Lovable platform about Numerical methods which promotes learning with fun. An interactive educational tool designed to make numerical methods engaging and accessible.",
       image: "/placeholder.svg",
-      technologies: ["React", "Tailwind CSS", "Framer Motion"],
+      technologies: ["React", "TypeScript", "Tailwind CSS"],
       liveUrl: "#",
-      githubUrl: "#"
+      githubUrl: "https://github.com/ShachiPradhan/numi-verse-explorer"
     },
     {
-      title: "Weather Dashboard",
-      description: "Real-time weather application with location-based forecasts, interactive maps, and weather alerts.",
+      title: "Easy Clinic",
+      description: "Created an app on Lovable platform that enables smooth hospital management through automatic patient token generation and doctors' availability tracking. Streamlines clinic operations efficiently.",
       image: "/placeholder.svg",
-      technologies: ["Vue.js", "Chart.js", "OpenWeather API"],
+      technologies: ["React", "TypeScript", "Firebase"],
       liveUrl: "#",
-      githubUrl: "#"
+      githubUrl: "https://github.com/ShachiPradhan/easy-clinic-token"
     }
   ];
 

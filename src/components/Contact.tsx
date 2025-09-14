@@ -2,7 +2,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
-import { Mail, Phone, MapPin, Send } from "lucide-react";
+import { Mail, Linkedin, MapPin, Send } from "lucide-react";
 
 const Contact = () => {
   return (
@@ -22,11 +22,11 @@ const Contact = () => {
             {/* Contact Information */}
             <div className="space-y-8">
               <div>
-                <h3 className="text-2xl font-semibold mb-6">Let's Talk</h3>
+                <h3 className="text-2xl font-semibold mb-6">Let's Connect</h3>
                 <p className="text-muted-foreground text-lg leading-relaxed">
-                  I'm always interested in hearing about new projects and opportunities. 
-                  Whether you're looking for a developer, have a question, or just want to say hi, 
-                  I'll get back to you as soon as possible.
+                  I'm always excited to discuss new opportunities, collaborate on data science projects, 
+                  or connect with fellow students and professionals. Whether you have a project idea, 
+                  want to discuss data science, or just want to say hi, I'd love to hear from you!
                 </p>
               </div>
 
@@ -37,17 +37,17 @@ const Contact = () => {
                   </div>
                   <div>
                     <p className="font-medium">Email</p>
-                    <p className="text-muted-foreground">john.doe@example.com</p>
+                    <p className="text-muted-foreground">shachipradhan81@gmail.com</p>
                   </div>
                 </div>
 
                 <div className="flex items-center space-x-4">
                   <div className="w-12 h-12 rounded-full bg-primary/20 flex items-center justify-center">
-                    <Phone className="w-6 h-6 text-primary" />
+                    <Linkedin className="w-6 h-6 text-primary" />
                   </div>
                   <div>
-                    <p className="font-medium">Phone</p>
-                    <p className="text-muted-foreground">+1 (555) 123-4567</p>
+                    <p className="font-medium">LinkedIn</p>
+                    <p className="text-muted-foreground">@shachi-pradhan-386955333</p>
                   </div>
                 </div>
 
@@ -57,7 +57,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <p className="font-medium">Location</p>
-                    <p className="text-muted-foreground">San Francisco, CA</p>
+                    <p className="text-muted-foreground">Bengaluru, Karnataka</p>
                   </div>
                 </div>
               </div>

@@ -17,14 +17,14 @@ const Hero = () => {
       <div className="container mx-auto px-4 text-center relative z-10">
         <div className="max-w-4xl mx-auto animate-fade-in">
           <h1 className="text-6xl md:text-8xl font-bold mb-6 leading-tight">
-            <span className="gradient-text">John Doe</span>
+            <span className="gradient-text">Shachi Pradhan</span>
           </h1>
           <h2 className="text-2xl md:text-4xl text-muted-foreground mb-8 font-light">
-            Full Stack Developer & UI/UX Designer
+            Computer Science - Data Science Student
           </h2>
           <p className="text-lg md:text-xl text-muted-foreground mb-12 max-w-2xl mx-auto leading-relaxed">
-            Crafting beautiful digital experiences with modern technologies. 
-            Passionate about creating intuitive interfaces and scalable solutions.
+            I'm an enthusiastic Computer Science (Data Science) student at AMC Engineering College.
+            I'm passionate about using code and data to solve real-world problems and currently learning AI and analytics tools to build impactful projects.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-16">
